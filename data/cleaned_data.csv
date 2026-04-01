@@ -1,11 +1,11 @@
-student_id	experiment_score	temperature	humidity
-abc1	3		
-abc2	5	35	109
-abc3	8	36	230
-abc4	2	37	
-abc5	9		560
-abc6		32	
-abc7	3		345
-abc8	8	44	
-abc9			
-abc10	0	0	
+student_id,experiment_score,temperature,humidity
+abc1		,3.0,30.666666666666668,311.0
+abc2	,5.0,35.0,109.0
+abc3	,8.0,36.0,230.0
+abc4		,2.0,37.0,311.0
+abc5	,9.0,30.666666666666668,560.0
+abc6	,4.75,32.0,311.0
+abc7	,3.0,30.666666666666668,345.0
+abc8		,8.0,44.0,311.0
+abc9			,4.75,30.666666666666668,311.0
+abc10	,0.0,0.0,311.0
