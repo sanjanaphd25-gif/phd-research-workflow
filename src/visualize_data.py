@@ -30,7 +30,7 @@ def visualize_data():
     plt.xlabel(numeric_cols[0])
     plt.ylabel("Frequency")
 
-    hist_path = os.path.join(output_dir, "histogram.png")
+    hist_path = os.path.join(output_dir, "temperature_humidity_plot.png")
     plt.savefig(hist_path)
     plt.close()
 
@@ -42,7 +42,7 @@ def visualize_data():
         plt.xlabel(numeric_cols[0])
         plt.ylabel(numeric_cols[1])
 
-        scatter_path = os.path.join(output_dir, "scatter_plot.png")
+        scatter_path = os.path.join(output_dir, "score_plot.png")
         plt.savefig(scatter_path)
         plt.close()
     else:
